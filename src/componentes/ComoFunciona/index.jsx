@@ -1,3 +1,4 @@
+import FormularioPreencher from "../FormularioPreencher";
 import "./ComoFunciona.css";
 
 function ComoFunciona() {
@@ -8,6 +9,7 @@ function ComoFunciona() {
         Dê uma olhada no passo-a-passo que deixamos para você entender como
         pedir a melhor peça sob medida!
       </p>
+      <FormularioPreencher />
 
       <button>Preencher formulário</button>
     </div>
