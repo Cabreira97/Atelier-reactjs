@@ -33,7 +33,20 @@
   color: #ffffff;
   font-weight: 500;
 }
+
 .header a {
   text-decoration: none;
   color: #ffffff;
+}
+.coracao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coracao img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
 }

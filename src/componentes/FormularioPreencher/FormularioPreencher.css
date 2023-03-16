@@ -1,5 +1,22 @@
 .formularioPreencher {
   width: 250px;
   height: 270px;
-  background-color: #81002D;
+  background-color: #81002d;
+  box-shadow: inset -5px -5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.formularioPreencher p:first-child {
+  text-align: center;
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffff;
+}
+.formularioPreencher p:last-child {
+  text-align: center;
+  width: 180px;
+  height: 100px;
 }

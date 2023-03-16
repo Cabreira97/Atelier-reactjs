@@ -1,15 +1,17 @@
 import "./Header.css";
+import img from "../images/coracao-banner.svg";
+import logo from "../images/logo-banner.svg";
 
-const Header = () => {
+function Header() {
   return (
     <div className="header">
       <ul>
         <li className="logo-header">
-          <img src="/images/logo-banner.svg" alt="" />
+          <img src={logo} alt="" />
           Atelier Márcia Ferraz
         </li>
-        <li>
-          <img src="/imges/coracao-banner.svg" alt="" />
+        <li className="coracao">
+          <img src={img} alt="" />
           <p>
             <a href="#">Entre</a> / <a href="#">Cadastre-se</a>
           </p>
@@ -17,6 +19,6 @@ const Header = () => {
       </ul>
     </div>
   );
-};
+}
 
 export default Header;
